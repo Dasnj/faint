@@ -9,6 +9,7 @@ gulp.task('serve', ['sass'], function() {
     gulp.watch("src/*.scss", ['sass']);
     gulp.watch("*.html").on('change', browserSync.reload);
 });
+
 gulp.task('sass', function() {
     return gulp.src("src/faint.scss")
         .pipe(sass())

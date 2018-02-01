@@ -55,7 +55,7 @@ h6 {
 // --------------------------------------------------
 
 blockquote {
-  border-left: 0.3rem solid $color-quaternary;
+  border-left: 0.3rem solid $color-tertiary;
   margin-left: 0;
   margin-right: 0;
   padding: 1rem 1.5rem;
@@ -68,7 +68,7 @@ blockquote {
 // --------------------------------------------------
 
 code {
-  background: $color-tertiary;
+  background: $color-quinary;
   border-radius: 0.4rem;
   font-size: 86%;
   margin: 0 0.2rem;
@@ -77,7 +77,7 @@ code {
 }
 
 pre {
-  background: $color-tertiary;
+  background: $color-quinary;
   border-left: 0.3rem solid $color-primary;
   overflow-y: hidden;
 
@@ -93,7 +93,7 @@ pre {
 
 hr {
   border: 0;
-  border-top: 0.1rem solid $color-tertiary;
+  border-top: 0.1rem solid $color-quinary;
   margin: 3.0rem 0;
 }
 

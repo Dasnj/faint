@@ -9,7 +9,6 @@
     "type": "git",
     "url": "git+https://github.com/Dasnj/faint.git"
   },
-  "license": "ISC",
   "author": "Dasnj",
   "bugs": {
     "url": "https://github.com/Dasnj/faint/issues"
