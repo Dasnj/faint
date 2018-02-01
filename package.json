@@ -1,0 +1,26 @@
+{
+  "name": "faint",
+  "version": "1.0.0",
+  "description": "A minimalist CSS framework.",
+  "scripts": {
+    "dev": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dasnj/faint.git"
+  },
+  "license": "ISC",
+  "author": "Dasnj",
+  "bugs": {
+    "url": "https://github.com/Dasnj/faint/issues"
+  },
+  "homepage": "https://github.com/Dasnj/faint#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "normalize.css": "^7.0.0"
+  }
+}
