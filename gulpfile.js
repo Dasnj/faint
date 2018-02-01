@@ -12,7 +12,7 @@ gulp.task('serve', ['sass'], function() {
 gulp.task('sass', function() {
     return gulp.src("src/faint.scss")
         .pipe(sass())
-        .pipe(gulp.dest("dist"))
+        .pipe(gulp.dest("examples"))
         .pipe(browserSync.stream());
 });
 
