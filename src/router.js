@@ -3,6 +3,7 @@ import VueRouter from 'vue-router';
 Vue.use(VueRouter);
 
 import index from './pages/index';
+import document from './pages/document';
 
 export default new VueRouter({
   routes: [{
@@ -11,5 +12,8 @@ export default new VueRouter({
   }, {
     path: '/index',
     component: index
+  }, {
+    path: '/document',
+    component: document
   }]
 });
