@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "A minimalist CSS framework.",
   "scripts": {
-    "dev": "webpack-dev-server"
+    "dev": "webpack-dev-server",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
